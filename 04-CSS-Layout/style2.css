@@ -1,0 +1,213 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-top: 30px;
+  /* border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black; */
+}
+.container {
+  width: 825px;
+  margin: 0 auto;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  position: relative;
+}
+
+.container::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -17px;
+  left: -40px;
+}
+
+h1 {
+  background-color: #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+img {
+  width: 245px;
+}
+
+.price {
+  font-size: 30px;
+  /* margin-bottom: 8px;
+  padding-top: 15px; */
+}
+
+.price-shipping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.freeshipping {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #555;
+  /* margin-bottom: 5px; */
+  /* position: absolute; */
+  /* top: 25px; */
+  /* right: 0; */
+}
+.ready {
+  /* margin-bottom: 10px; */
+}
+
+.more-info {
+  /* margin-bottom: 10; */
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-top: 19px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+.button {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  width: 825px;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+a {
+  color: inherit;
+  margin: 0 5px;
+}
+.color {
+  width: 22px;
+  height: 22px;
+  /* margin: 10px 5px; */
+  /* display: inline-block; */
+}
+.Colors-available {
+  display: flex;
+  gap: 10px;
+}
+
+.color-1 {
+  background-color: black;
+}
+
+.color-2 {
+  background-color: blue;
+}
+
+.color-3 {
+  background-color: red;
+}
+
+.color-4 {
+  background-color: yellow;
+}
+
+.color-5 {
+  background-color: green;
+}
+
+.color-6 {
+  background-color: brown;
+}
+
+.Flex-situation {
+  display: flex;
+}
+
+.Block-2 {
+  flex: 1;
+  word-wrap: break-word;
+  margin-left: 30px;
+}
+.Block-3 {
+  flex: 1;
+}
+
+/* 
+.Block-1 {
+  background-color: red;
+  width: 245px;
+  height: 245px;
+  clear: both;
+  float: left;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.Block-2 {
+  background-color: blue;
+  width: 245px;
+  height: 245px;
+  word-wrap: break-word;
+  float: left;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+}
+
+.Block-3 {
+  background-color: green;
+  width: 245px;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 30px;
+  word-break: break-all;
+  display: inline-block;
+  white-space: pre-wrap; 
+  word-wrap: normal;
+}
+
+
+.product {
+  padding-top: 5px;
+}
+
+.ready {
+  padding-top: 20px;
+}
+
+.Colors-available {
+  padding-top: 15px;
+} */
